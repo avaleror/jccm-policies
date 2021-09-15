@@ -6,6 +6,6 @@ metadata:
   namespace: acm-policies
 spec:
   type: GitHub
-  pathname: https://github.com/ocp-tigers/rhacm-demo.git
+  pathname: https://github.com/avaleror/jccm-policies.git
   secretRef:
     name: acm-app-secret
