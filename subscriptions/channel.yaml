@@ -5,7 +5,6 @@ metadata:
   name: demo-policies
   namespace: acm-policies
 spec:
-  type: GitHub
+  type: Git
   pathname: https://github.com/avaleror/jccm-policies.git
-  secretRef:
-    name: acm-app-secret
+
