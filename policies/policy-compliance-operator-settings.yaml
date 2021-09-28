@@ -51,6 +51,7 @@ spec:
         kind: ConfigurationPolicy
         metadata:
           name: comp-op-scansettings-binding
+          namespace: openshift-compliance
         spec:
           remediationAction: inform # will be overridden by remediationAction in parent policy
           severity: high
