@@ -51,7 +51,6 @@ spec:
         kind: ConfigurationPolicy
         metadata:
           name: comp-op-scansettings-binding
-          namespace: openshift-compliance
         spec:
           remediationAction: inform # will be overridden by remediationAction in parent policy
           severity: high
@@ -63,6 +62,7 @@ spec:
                 kind: ScanSettingBinding
                 metadata:
                   name: cis-ocp4
+                  namespace: openshift-compliance
                 profiles:
                   # Node CIS checks
                   - name: ocp4-cis-node
